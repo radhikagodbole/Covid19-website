@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> 
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    background-color:#FAF0E6; 
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-attachment:fixed;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 50 em;
+}
+
+h1{
+    text-align:center;
+    font-family: Arial, sans-serif;
+    color:#C71585;
+} 
+p {
+    text-align: left;	
+    font-family: Georgia, serif;
+    font-size:20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style:normal;
+    font-weight:normal;
+    color:#000000;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.div1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid purple;
+    background-color: bisque;
+    border-width: 2px;
+}
+</style>
+</head>
+<body>
+
+
+<!--TOPNAV-->   
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #C71585;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FAF0E6;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FFFFFF;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Menu</a>
+  <a href="#intro">Introduction</a>
+  <a href="#WHO">WHO website</a>
+  <a href="#impacts">Impacts on environment</a>
+  <a href="#pic">Gallery</a>
+  <a href="#more">MOEF website</a>
+  <a href="#tips">Precautions</a>
+</div>
+
+
+
+
+<!--INTRO-->
+
+<p id="intro"></p>
+<br>
+<br>
+<h1>IMPACTS OF COVID-19</h1>
+
+<p>The COVID-19 pandemic has led to a dramatic loss of human life worldwide and presents an unprecedented challenge to public health, food systems and the world of work. The economic and social disruption caused by the pandemic is devastating: tens of millions of people are at risk of falling into extreme poverty, while the number of undernourished people, currently estimated at nearly 690 million, could increase by up to 132 million by the end of the year.</p>
+
+<p>Along with that, Covid-19 has also impacted our environment in various ways- both, positive and negative.</p>
+
+
+<!--MARQUEE-->
+
+
+<p id="WHO"></p>
+<br>
+<br>
+
+ <p class="div1">
+    <marquee>Click on this link to view 'WHO' website for more information about COVID-19: <a style="color:MediumVioletRed" href="https://covid19.who.int/region/searo/country/in">India WHO website</a>.</marquee>
+</p>
+<br>
+
+
+<!--IMPACTS-->
+
+
+<p id="impacts"></p>
+<br>
+<br>
+
+
+<h2 style="text-align:center; color:MediumVioletRed;">How Covid-19 has affected the environment</h2>
+<br>
+<p><img class="center" height="400" src="assets/bad1.JPG"/></p>
+<!-- <table>
+    <tr>
+        <td> -->        <!-- </td>
+    </tr>
+</table> -->
+        <img class="center"  width="600" height="300" src="assets/good1.JPG"/>
+    <!-- </tr>
+    <tr> -->
+        <img class="center"  width="600" height="300" src="assets/good2.JPG"/>
+
+    <br>
+
+
+<!--GALLERY-->
+
+
+<br>
+<p id="pic"></p>
+<br>
+<br>
+
+<h2 style="text-align:center; color:MediumVioletRed;">Gallery</h2>
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #black;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="assets/coyote.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="assets/waste.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="assets/air.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<!--MOEF-->
+
+
+<p id="more"></p>
+<br>
+<br>
+<br>
+
+<hr>
+    <p>Click on the logo below to view the Indian environmental ministry's official wesite for more information
+
+    <br>
+ <br> <a href="https://moef.gov.in/en/">
+         <img alt="Qries" src="http://moef.gov.in/wp-content/uploads/2018/10/right_logo.png"
+         width=200" height="200">
+      </a> 
+
+      
+     <style>
+.collapsible {
+  background-color: #808080;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: outset;
+  text-align:center;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #191919;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<hr>
+
+
+<!--TIPS-->
+
+
+<p id="tips"></p>
+<br>
+<br>
+<h2 style="text-align:center; color:MediumVioletRed;">Covid-19 Precautions</h2>
+
+<br>
+<A HREF="face" width: 20px;
+  height: 20; ><img src="assets/tenor.gif" style="width:250px;height:250px;" class="center"></A>
+  <p class="center">(click on the grey bar for details)</p>
+
+<button class="collapsible">Clean your hands</button>
+<div class="content">
+  <p>Regularly and thoroughly clean your hands with an alcohol- based
+hand rub or wash them with soap and water. Why? Washing
+your hands with soap and water or using alcohol-based hand
+rub kills viruses that may be on your hands.</p>
+</div>
+
+<button  class="collapsible">Social distancing</button>
+<div class="content">
+  <p>Maintain at least 1 metre (3 feet) distance between yourself and
+anyone who is coughing or sneezing. Why?
+When someone coughs or sneezes they spray small liquid
+droplets from their nose or mouth which may contain virus. If you
+are too close, you can breathe in the droplets, including the
+COVID-19 virus if the person coughing has the disease.</p>
+</div>
+
+<button class="collapsible">Avoid touching your face</button>
+<div class="content">
+  <p>Avoid touching eyes, nose and mouth. Why?
+Hands touch many surfaces and can pick up viruses. Once
+contaminated, hands can transfer the virus to your eyes, nose
+or mouth. From there, the virus can enter your body and can
+make you sick.</p>
+</div>
+
+<button class="collapsible">Follow respiratory hygiene</button>
+<div class="content">
+  <p>Make sure you, and the people around you, follow good
+respiratory hygiene. This means covering your mouth and nose
+with your bent elbow or tissue when you cough or sneeze. Then
+dispose of the used tissue immediately. Why?
+Droplets spread virus. By following good respiratory hygiene you
+protect the people around you from viruses such as cold, flu and
+COVID-19.</p>
+</div>
+
+<button class="collapsible">Stay home</button>
+<div class="content">
+    <p>Stay home if you feel unwell. If you have a fever, cough and
+difficulty breathing, seek medical attention and call in advance.
+Follow the directions of your local health authority. Why?
+National and local authorities will have the most up to date
+information on the situation in your area. Calling in advance will
+allow your health care provider to quickly direct you to the right
+health facility. This will also protect you and help prevent spread
+of viruses and other infections.</p>
+</div>
+
+<button class="collapsible">Avoid travel</button>
+<div class="content">
+    <p>Keep up to date on the latest COVID-19 hotspots (cities or local
+areas where COVID-19 is spreading widely). If possible, avoid
+traveling to places – especially if you are an older person or
+have diabetes, heart or lung disease. Why?
+You have a higher chance of catching COVID-19 in one of these
+areas.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+  </body>
+</html> 
